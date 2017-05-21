@@ -1,0 +1,89 @@
+/* stylesheet for the index page */
+
+canvas{
+	
+	opacity: 0.6;
+	/*z-index: -1;   */
+
+/* following 4 lines of code is from http://jsfiddle.net/6C55n/ */
+	position: absolute;
+    z-index: -1;
+
+}
+body{
+
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;	
+
+}
+
+a { 
+	text-decoration: none;
+	color: #2c3e50;
+
+	
+}
+
+.active {
+
+	background: #FFE11A;
+	padding: 2px;
+
+}
+
+.header{
+	background-color: #fff;
+	width: 100%;
+	margin: 20px 20px 50px 20px;
+	padding: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2c3e50;
+}
+
+
+
+#nav{
+
+	margin: 0 50px;
+	padding: 5px;
+	float: right;
+
+}
+
+#nav span {
+
+	margin: 0 10px;
+}
+
+/* following code is from http://jsfiddle.net/6C55n/ 
+#can {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+} */
+
+
+#labelDiv {
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    z-index: 0;
+    text-align: center;
+    background: rgba(255,255,255,0.9);
+
+}
+
+#point-modal{
+	display: none;
+}
+
+
+
+
+
+
+
+
